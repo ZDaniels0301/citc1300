@@ -1,4 +1,8 @@
-# citc_1300_webt_1320_upload
+# citc1300 Project Page
+
+<h1>Project List</h1>
+
+<a href="project1/index.html" target="_blank">Project 1</a>
 
 <h2>Basic Web Projects</h2>
 <ul>
