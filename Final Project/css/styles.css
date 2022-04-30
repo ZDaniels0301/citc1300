@@ -1,0 +1,281 @@
+body{
+    background-color: palevioletred;
+}
+
+main{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+nav div footer{
+    padding:10px;
+    margin:10px;
+    border:4px solid;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    color: palevioletred;
+}
+
+table img{
+    width:2900px;
+}
+.narutoborder{
+    border:4px solid #ffa500;
+}
+
+video{
+    margin:10px auto;
+}
+
+.goku{
+    border:4px solid silver;
+}
+.gokutext{
+    color:indigo;
+}
+.aang{
+    color:palevioletred;
+    border:4px solid darkblue;
+}
+
+.eren{
+    color:#880808;
+}
+
+td{
+    border:4px solid #000000;
+}
+
+
+table,tr,td{
+    padding:10px;
+    margin:10px auto;
+    text-align: center;
+}
+
+h3 a{
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    text-align: center;
+}
+
+.naruto{
+    color:orangered;
+}
+
+.text{
+    color:#000000;
+}
+
+h3{
+    background: linear-gradient(90deg, #ff0000, #ffff00, #ff00f3, #0033ff, #ff00c4, #ff0000);
+    background-size: 400%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+    text-align: center;
+}
+
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position:400%;
+    }
+}
+
+#container{
+    background-color:#00FFFF;
+    margin:20px;
+}
+
+h4{
+    text-align: center;
+     text-transform: uppercase;
+    background:linear-gradient(to right,
+     hsl(0,0%, 30%) 0,
+     hsl(0, 0%, 100%) 10%,
+      hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    padding: 60px;
+}
+
+@keyframes shine{
+    0% {
+        background-position: 0;
+    }
+    60%{
+        background-position: 600px;
+    }
+    100%{
+        background-position: 600px;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+    background:linear-gradient(to right,
+     hsl(0,0%, 30%) 0,
+     hsl(0, 0%, 100%) 10%,
+      hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+    padding: 60px;
+}
+
+@keyframes shine{
+    0% {
+        background-position: 0;
+    }
+    60%{
+        background-position: 600px;
+    }
+    100%{
+        background-position: 600px;
+    }
+}
+
+header{
+    background-image: url(/images/demon.gif);
+    padding:40px 0;
+    text-shadow: 2px 2px 2px #00FFFF;
+
+}
+nav ul{
+    list-style-type: none;
+
+    color:palevioletred;
+}
+
+a{
+
+}
+
+nav li{
+
+}
+
+nav, li, a{
+    color: #00FFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.2em;
+
+    border-radius: 10px;
+    background-color: #ff00c4;
+}
+
+nav, li, a:hover{
+    background-color:violet;
+    text-shadow: 2px 2px 2px indigo;
+}
+
+a{
+    color: palevioletred;
+}
+
+div{
+ 
+}
+
+p{
+    color:#00FFFF;
+    font-weight:bold;
+    text-align: center;
+    font-weight: bold;
+}
+
+header h1{
+    text-align: center;
+    color: palevioletred;
+    font-weight: bold;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.col{
+
+}
+
+img{
+    display:block;
+    text-align: center;
+    max-width: 100%;
+    margin:0 auto;
+}
+
+.col img{
+
+}
+
+footer{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+@media(min-width:760px){
+    #container{
+        width:90%;
+        margin:20px auto;
+    }
+    .col{
+        width:65%;
+        margin:20px auto;
+    }
+
+    .col img{
+        width:30%;
+    }
+    video{
+        margin:10px auto;
+    }
+}
+
+@media(min-width:1024px) {
+        #flex{
+            display:flex;
+     }
+
+     #container{
+         width:75%;
+     }
+
+     .col{
+         margin:20px;
+     }
+
+     video{
+         margin: 10px auto;
+     }
+
+     .main_img{
+         display:block;
+         width:30%;
+         margin:20px auto;
+     }
+
+     .col img{
+         width:50%
+
+     }
+    
+}
+
+div{
+    background-color:indigo;
+}
