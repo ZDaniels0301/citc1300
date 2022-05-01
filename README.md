@@ -10,4 +10,5 @@
     <li><a href="Lab3/index.html" target="_blank">Lab 3</a></li>
 </ul>
 <h2>Final Project</h2>
-    <li><a href="Final Project/index.html" target="_blank">Final Project</a></li>
+
+<li><a href="Final Project/index.html" target="_blank">Final Project</a></li>
