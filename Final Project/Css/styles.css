@@ -156,6 +156,11 @@ header{
     padding:40px 0;
     text-shadow: 2px 2px 2px #00FFFF;
 }
+.bg{
+    background-image: url(/images/demon.gif);
+    padding:40px 0;
+    text-shadow:2px 2px 2px #00FFFF;
+}
 nav ul{
     list-style-type: none;
 
