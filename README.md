@@ -12,5 +12,5 @@
 
 <h2>Final Project</h2>
 <ul>
-    <li><a href="FinalProject/index.html" target="_blank">Final Project</a></li>
+    <li><a href="Final Project/index.html" target="_blank">Final Project</a></li>
 </ul>
